@@ -16,6 +16,7 @@ body {
 }
 
 /* Common */
+
 a {
     text-decoration: none;
 }
@@ -100,7 +101,7 @@ a {
 .hero-wrap {
     background: #e6f0ff;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 91px);
 }
 
 .hero-wrap .info {
