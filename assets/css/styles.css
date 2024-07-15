@@ -11,6 +11,10 @@ body {
     font-size: 1.6rem;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #0f1b4c;
 }
@@ -96,12 +100,18 @@ a {
     margin-right: 18px;
 }
 
+.fixed-header .item:hover {
+    text-decoration: underline;
+}
+
 /* ========================== hero ======================== */
 
 .hero-wrap {
     background: #e6f0ff;
     position: relative;
     height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
 }
 
 .hero-wrap .info {
@@ -109,7 +119,7 @@ a {
 }
 
 .hero-wrap .sub-title {
-    padding-top: 130px;
+    /* padding-top: 130px; */
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -141,10 +151,6 @@ a {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
-}
-
-.hero-wrap .item:hover {
-    text-decoration: underline;
 }
 
 /* =============== clients ================ */
