@@ -19,7 +19,7 @@ html, body {
     --primary-color: #0f1b4c;
 }
 
-/* Common */
+/* ==================== Common ======================= */
 
 a {
     text-decoration: none;
@@ -119,7 +119,6 @@ a {
 }
 
 .hero-wrap .sub-title {
-    /* padding-top: 130px; */
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
